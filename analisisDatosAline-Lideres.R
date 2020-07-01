@@ -1,4 +1,4 @@
-datos_correlacion <- read.csv2("datos-encuestaLider.csv", header = FALSE)
+datos_correlacion <- read.csv2("datos-encuestaLider-Reducido.csv", header = FALSE)
 test <- matrix(1:18, nrow=3)
 aux_test <- matrix(1:18, nrow=3)
 rownames(test) <- c("Statistic-z", "pvalor", "Estimates-tau")
